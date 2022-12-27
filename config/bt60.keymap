@@ -29,9 +29,9 @@
 		};
 		raise {
 			bindings = <
-				&bt BT_CLR &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
+				&kp ESC &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
 				&trans &trans &kp UP &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug RGB_TOG
-				&kp CAPS    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &bootloader
+				&kp CAPS    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp END   &bootloader
 				&trans &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &kp C_PREV &kp C_NEXT &rgb_ug RGB_TOG &rgb_ug RGB_EFF &ext_power EP_TOG &trans &trans &kp PG_UP   &trans
 				&bt BT_PRV &bt BT_NXT  &bt BT_SEL              &trans                            &kp LGUI  &rgb_ug RGB_TOG  &bl BL_TOG &kp PG_DN &bt BT_CLR
 			>;
